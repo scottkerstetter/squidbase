@@ -1,0 +1,38 @@
+erDiagram
+    season ||--|{ game_version : updates
+    season{
+        int id "PK"
+        text name "fresh season, drizzle season, etc"
+        int year "year that season is in"
+    }
+    game_version{
+        int id "PK"
+        int season_id "FK"
+        text name "version number"
+        date launch "launch date"
+    }
+    season ||--|{ main : debuts
+    main{
+        int id "PK"
+        int season_id "FK"
+        int sub_id "FK"
+        int special_id "FK"
+        text name "main weapon's name"
+        int level "player level required to get main weapon"
+        int special_charge "points required for full charge"
+        text class "main weapon's class"
+    }
+    main }|--|| sub : has
+    sub{
+        int int "PK"
+        int season_id "FK"
+        text name "sub's name"
+    }
+    main }|--|| special : has
+    special{
+        int id "PK"
+        int season_id "FK"
+        text name "special's name"
+    }
+    sub }|--|| season : debuts
+    special }|--|| season : debuts

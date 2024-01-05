@@ -1,0 +1,39 @@
+version,notes,release
+1.1.0,"Initial preload release of Splatoon 3.
+Adds majority of multiplayer data.
+Changes to single-player.
+Activates online functionality.",2022-09-07
+1.1.1,"Adjusted rate of Tricolor Turf War to occur in Splatfests.
+Bug fixes for player controls, Multiplayer, Salmon Run, Story Mode, and other adjustments.",2022-09-16
+1.1.2,"Bug fixes for communication, player controls, match-related, and other changes.",2022-09-30
+1.2.0,"Balance adjustments, bug fixes, and general improvements.
+Adds support for the first wave of Splatoon 3 amiibo.",2022-10-26
+1.2.1,Bug fixes for multiplayer.,2022-10-28
+2.0.0,"New content as part of Chill Season 2022.
+Changes to weapons, Salmon Run and Tricolor Battles.",2022-11-30
+2.0.1,"Bug fixes for player controls, and other changes.",2022-12-09
+2.1.0,"Balance adjustments, bug fixes, and general improvements.",2023-01-18
+2.1.1,"Adds Splatoon 3: Expansion Pass pre order bonuses.
+Bug fixes for player controls, and other changes.",2023-02-09
+3.0.0,"New content as part of Fresh Season 2023.
+Balance adjustments, map redesigns, and bug fixes.",2023-02-28
+3.0.1,Minor bug fix.,2023-03-09
+3.1.0,"New Splatfest content relating to Inkopolis DLC.
+Balance adjustments, bug fixes, and general improvements.",2023-03-31
+3.1.1,"New Splatfest data and adjustments.
+Bug fixes for multiplayer, Salmon Run, and other changes.",2023-05-02
+4.0.0,New content as part of Sizzle Season 2023.,2023-05-31
+4.0.1,Bug fixes for multiplayer.,2023-06-02
+4.0.2,Bug fixes and performance improvements for multiplayer.,2023-06-14
+4.1.0,"Balance adjustments, bug fixes, and general improvements.",2023-07-27
+5.0.0,New content as part of Drizzle Season 2023.,2023-08-31
+5.0.1,Minor bug fixes and minor new content related to Side Order.,2023-09-15
+5.1.0,"Adding special data for the Zombie vs. Skeleton vs. Ghost Splatfest.
+Balance adjustments, bug fixes, and general improvements.
+Added the Mahi-Mahi Resort map redesign.",2023-10-18
+5.2.0,"Adds support for the second wave of Splatoon 3 Amiibo.
+The number of Catalog Points earned during the Closeout Bonus period has increased from 1.2x to 1.5x.
+Added support for Splatoon 3 Tournament Manager.",2023-11-16
+6.0.0,New content as part of Chill Season 2023.,2023-11-30
+6.0.1,Minor bug fixes.,2023-12-08
+6.0.2,Minor bug fixes.,2023-12-22
