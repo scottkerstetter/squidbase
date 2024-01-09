@@ -9,12 +9,11 @@ This database, SquidBase, contains weapon and version information for Splatoon 3
 ## Representation
 
 ### Entities
-* `season` this is text
-* `game_version`
-* `main`
-* `sub`
-* `special`
-
+* `season` contains
+* `game_version` contains 
+* `main` contains
+* `sub` contains
+* `special` contains
 
 ### Relationships
 
@@ -23,4 +22,6 @@ Describe relationships here
 ![Entity Relationship Diagram](diagram.png)
 
 
-## Limitations
+## Setup
+
+
