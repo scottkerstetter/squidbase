@@ -9,8 +9,8 @@ This database, SquidBase, contains weapon and version information for Splatoon 3
 ## Representation
 
 ### Entities
-* `season` contains
-* `game_version` contains 
+* `season` contains data about the four in-game seasons (Sizzle, Chill, etc).
+* `game_version` contains data about patch notes and release dates. 
 * `main` contains
 * `sub` contains
 * `special` contains
@@ -24,4 +24,5 @@ Describe relationships here
 
 ## Setup
 
-
+## Sources
+[Patch Notes](https://en-americas-support.nintendo.com/app/answers/detail/a_id/61257/~/splatoon-3-update-history)
