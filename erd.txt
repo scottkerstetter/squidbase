@@ -4,12 +4,14 @@ erDiagram
         int id "PK"
         text name "fresh season, drizzle season, etc"
         int year "year that season is in"
+        int number "season number"
     }
     game_version{
         int id "PK"
         int season_id "FK"
-        text name "version number"
-        date launch "launch date"
+        text number "version number"
+        text notes "patch notes from devs"
+        date release "release date of version"
     }
     season ||--|{ main : debuts
     main{
