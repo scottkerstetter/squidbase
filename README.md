@@ -6,8 +6,6 @@ This SQLite database, SquidBase, contains weapon and version information for Spl
 <br/> <br/>
 *** This database is a work in progress ***
 
-## Functional Requirements
-
 ## Representation
 
 ### Entities
