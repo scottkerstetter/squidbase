@@ -2,7 +2,7 @@
 
 ## Scope
 
-This SQlite database, SquidBase, contains weapon and version information for Splatoon 3. Currently weapon and version notes are scattered across the internet which makes it difficult to make any deeper analysis. This collect will help anyone interested in taking a more analytical look at weapon options and track how they've change via developer patch notes.
+This SQLite database, SquidBase, contains weapon and version information for Splatoon 3. Currently weapon and version notes are scattered across the internet which makes it difficult to make any deeper analysis. This collect will help anyone interested in taking a more analytical look at weapon options and track how they've change via developer patch notes.
 <br/> <br/>
 *** This database is a work in progress ***
 
