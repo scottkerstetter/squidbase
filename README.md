@@ -25,4 +25,5 @@ Describe relationships here
 ## Setup
 
 ## Sources
-[Patch Notes](https://en-americas-support.nintendo.com/app/answers/detail/a_id/61257/~/splatoon-3-update-history)
+[Nintendo Support Update History](https://en-americas-support.nintendo.com/app/answers/detail/a_id/61257/~/splatoon-3-update-history)
+[Inkepedia](https://splatoonwiki.org/wiki/Main_Page)
