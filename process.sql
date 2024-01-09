@@ -51,14 +51,35 @@ UPDATE "season" SET "number" = 4 WHERE "year" = 2023 AND "name" LIKE 'sizzle%';
 UPDATE "season" SET "number" = 5 WHERE "year" = 2023 AND "name" LIKE 'drizzle%';
 UPDATE "season" SET "number" = 6 WHERE "year" = 2023 AND "name" LIKE 'chill%';
 
--- insert version info into game_version
+-- insert version info into game_version table
 INSERT INTO "game_version"("season_id", "number", "release", "notes")
     SELECT DISTINCT "season"."id", "updates"."version", "updates"."release", "updates"."notes"
     FROM "updates"
     JOIN "temp" ON "updates"."version_id" = "temp"."version"
     JOIN "season" ON "temp"."season_name" = "season"."name" AND "temp"."year" = "season"."year";
 
+-- insert subweapon info into sub table
+INSERT INTO "sub"("season_id", "name")
+    SELECT DISTINCT MIN("season"."id"), "temp"."sub"
+    FROM "temp" 
+    JOIN "season" ON "temp"."season_name" = "season"."name" AND "temp"."year" = "season"."year"
+    GROUP BY "temp"."sub";
 
+
+-- insert special weapon into into special table
+INSERT INTO "special"("season_id", "name")
+    SELECT DISTINCT MIN("season"."id"), "temp"."special"
+    FROM "temp" 
+    JOIN "season" ON "temp"."season_name" = "season"."name" AND "temp"."year" = "season"."year"
+    GROUP BY "temp"."special";
+
+-- insert main weapon info into main table
+INSERT INTO "main"("season_id", "sub_id", "special_id", "name", "level", "special_charge", "class")
+    SELECT "season"."id", "sub"."id", "special"."id", "temp"."main", "temp"."level", "temp"."special points", "temp"."class"
+    FROM "temp" 
+    JOIN "season" ON "temp"."season_name" = "season"."name" AND "temp"."year" = "season"."year"
+    JOIN "sub" ON "temp"."sub" = "sub"."name"
+    JOIN "special" ON "temp"."special" = "special"."name";
 
 /****** drop temp tables ******/
 DROP TABLE IF EXISTS "temp";
