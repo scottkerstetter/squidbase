@@ -1,8 +1,8 @@
 # SquidBase
 
-This database, SquidBase, contains weapon and version information for Splatoon 3.
-
 ## Scope
+
+This SQlite database, SquidBase, contains weapon and version information for Splatoon 3. Currently weapon and version notes are scattered across the internet which makes it difficult to make any deeper analysis. This collect will help anyone interested in taking a more analytical look at weapon options and track how they've change via developer patch notes.
 
 ## Functional Requirements
 
@@ -24,7 +24,13 @@ This database, SquidBase, contains weapon and version information for Splatoon 3
 
 
 ## Setup
+Steps for setting up this database on your own machine.
+* Download all files from repository.
+* Create database file (.db)
+* Use SQLite to run `schema.sql` followed by `process.sql`.
+* `empty.sql` and `drop.sql` are used to clear the database in needed.
 
 ## Sources
 [Nintendo Support Update History](https://en-americas-support.nintendo.com/app/answers/detail/a_id/61257/~/splatoon-3-update-history) <br/>
 [Inkepedia](https://splatoonwiki.org/wiki/Main_Page) <br/>
+[SQLite Homepage](https://www.sqlite.org/index.html)
