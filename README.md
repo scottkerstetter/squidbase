@@ -1,4 +1,4 @@
-# squidbase
+# SquidBase
 
 This database, SquidBase, contains weapon and version information for Splatoon 3.
 
