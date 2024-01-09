@@ -11,9 +11,9 @@ This database, SquidBase, contains weapon and version information for Splatoon 3
 ### Entities
 * `season` contains data about the four in-game seasons (Sizzle, Chill, etc).
 * `game_version` contains data about patch notes and release dates. 
-* `main` contains
-* `sub` contains
-* `special` contains
+* `main` contains data main weapons, weapon class, special charge limits, and foreign keys for sub weapons and specials.
+* `sub` contains data about sub weapons.
+* `special` contains data about specials.
 
 ### Relationships
 
@@ -25,5 +25,5 @@ Describe relationships here
 ## Setup
 
 ## Sources
-[Nintendo Support Update History](https://en-americas-support.nintendo.com/app/answers/detail/a_id/61257/~/splatoon-3-update-history)
-[Inkepedia](https://splatoonwiki.org/wiki/Main_Page)
+[Nintendo Support Update History](https://en-americas-support.nintendo.com/app/answers/detail/a_id/61257/~/splatoon-3-update-history) <br/>
+[Inkepedia](https://splatoonwiki.org/wiki/Main_Page) <br/>
